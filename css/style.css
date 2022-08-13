@@ -1,0 +1,120 @@
+/* Variables */
+:root {
+  --white: #ffffff;
+  --light-beige: #EFE6E4;
+  --beige: #E2C4BA;
+  --dark-beige: #CC8B86;
+  --light-brown: #8D7370;
+  --brown: #533738;
+}
+  /* Fonts */
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.woff2),
+    url(../fonts/Montserrat-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+  
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Medium.woff2),
+  url(../fonts/Montserrat-Medium.woff2);
+  font-weight: 500;
+  font-style: normal;
+}
+/*Global*/
+a {
+  text-decoration: none;
+  }
+  
+img {
+  max-width: 100%;
+  height: auto;
+  }
+
+.page-body {
+  font-family: "Montserrat", "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  background-color: var(--light-beige);
+  color: var(--brown);
+}
+
+.nav-menu{
+  list-style: none;
+}
+
+.heading-1 {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.heading-2 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.button{
+  width: 310px;
+  height: 74px;
+  color: var(--brown);
+  background-color: var(--dark-beige);
+  border: none;
+}
+
+.button:hover{
+  background-color: var(--beige);
+}
+
+.main-header {
+  height: 715px;
+  background: url(../img/header-back.svg) no-repeat;
+}
+
+.nav-menu-item a{
+  color: var(--brown);
+}
+
+.table{
+  background-color: var(--light-brown);
+  color: var(--white);
+}
+
+.ourworks-article {
+  width: 488px;
+  height: 451px;
+  background: url(../img/ourworks_1.svg) no-repeat;
+  color: var(--white);
+}
+
+.background-biege {
+  background-color: var(--beige);
+}
+
+.application{
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.client-name {
+  width: 508px;
+  color: var(--beige);
+  background-color: var(--brown);
+  border: none;
+  border-bottom: 2px var(--beige) solid;
+}
+
+.client-telephone {
+  width: 508px;
+  color: var(--beige);
+  background-color: var(--brown);
+  border: none;
+  border-bottom: 2px var(--beige) solid;
+}
+
+.footer a{
+  color: var(--brown);  
+}
